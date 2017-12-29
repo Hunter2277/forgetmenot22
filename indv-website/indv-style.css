@@ -1,0 +1,299 @@
+           
+@import url('https://fonts.googleapis.com/css?family=Princess+Sofia');             
+ 
+/*Phone*/
+
+@media screen and (max-width:320px){
+    body{
+        display:block;
+    }
+    div#left-col{
+        
+        width:auto;
+    }
+    main{
+     
+        width:auto;
+    }
+    aside{
+        width:auto;
+        
+    }
+    nav{
+      
+    }
+    div{width:90%; height:70%;margin:0px;float:left;margin-top:15px;background-color:rgba(255,250,240,0.85);}
+        
+        #div1{width:100%;height:52%;}
+        #div2{width:auto;}
+        #div3{width:auto; margin-top:15px;background-color:rgba(255,250,240,0.85);}
+            
+    footer{
+        width:10%;
+        height:5%;
+    }
+}
+            
+header{ 
+/*background-image:url(../Images/woodtext.jpg);
+    background-repeat:no-repeat;
+    background-position: center;*/
+    
+    background-color:transparent;
+    /*color: #82afd3;*/
+    color:#609fd2;
+    width: 50%;
+    height:10%;
+    margin: 0px auto;
+}
+header h1{
+   font-family:'Princess Sofia', cursive;
+    font-size:102px;
+    text-shadow:2px 2px black;
+    margin-top:47px;
+}
+header h2{
+    font-family:'Bradley Hand ITC';
+    font-size:45px;
+    text-shadow:2px 2px black;
+    margin-top:-54px;
+    color:gold;
+}
+.h2Left{
+    text-align: left;
+}
+
+nav{
+    background-color: #82afd3;
+    padding:4px;
+    text-align:left;
+    text-decoration:none;
+
+}
+
+nav ul {
+    margin:12px;
+}
+.homenav{
+    list-style-type: none;
+    font-family:'Centaur';
+    font-size:20px;
+    display:inline;
+    padding:16px;
+    text-decoration:none; 
+    width:100%;
+    line-height:1em;
+      }
+
+#listMain{
+    list-style-position: inside;
+    line-height: 4em;
+    list-style-type:none;
+    font-size: 30px;
+    font-family: 'Centaur';
+    text-align: center;
+}
+#listMain li a{
+    display:block;
+    color:#000;
+    text-decoration:none;
+    border: solid thin;
+    border-color:#82afd3;
+}
+#listMain li a:hover {
+    background-color:#82afd3;
+    color:white;
+    
+}
+.sideNav ul{ 
+    text-align:center;
+    list-style-type: none;
+    margin: 14px;
+    padding:0px;
+    width: 23%;
+    background-color:rgba(255,250,240,0.85);
+    height:400px;
+    position: absolute; 
+    overflow: auto; 
+    line-height:3.5em;
+    font-family:'Bradley Hand ITC';
+    font-size:22px;
+}
+#sideList li a{
+    display:block;
+    color:#000;
+    text-decoration:none;
+    border: solid thin;
+    border-color:#82afd3;
+    
+}
+
+#sideList li a:hover{
+    background-color:#82afd3;
+    color:white;
+}
+h1{
+    font-family:'Bradley Hand ITC';
+    font-size: 40px;
+}
+h2{
+    font-family:'Bradley Hand ITC';
+    font-size: 30px;
+}
+
+.imageMain{max-height:442px; max-width:100%;
+}
+
+p{
+    font-family:'Centaur'; 
+    font-size:24px;
+    color: black;
+    line-height:1.5em;
+}
+#textL{text-align:left;
+}
+.faqs{ 
+    border-color:black;
+    text-align:left;
+    line-height:2em;
+    font-size:22px;
+}
+
+div{
+    margin: 0px auto;
+    line-height:1.4em;
+    font-weight: bold;
+}
+
+main {
+    background-color:rgba(255,250,240,0.85);
+    margin-left:380px;
+    margin-top:14px;
+    margin-right:14px;
+    padding:40px;
+}
+
+#createMain{
+    padding-bottom: 130px;
+}
+
+
+ aside{
+     background-color:rgba(255,250,240,0.85);
+     font-family:'Centaur'; 
+     font-size:25px;
+     line-height:3em;
+     height: 25%;
+}  
+
+ul{
+    list-style-type: none;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: left;
+    font-size:23px;
+    font-family:Centaur;
+    text-align:center;
+    text-decoration: none;
+}
+ol{
+    list-style-position:inside;
+    line-height: 2em;
+    font-family:'Bradley Hand ITC';
+    font-size:26px;
+}
+ol li{
+    margin: 10px 0px 0px 10px;
+    text-align: left;
+}
+
+body{
+    background-image:url("../Images/forget-me-not-777177_1280.jpg"); 
+    background-repeat:none;
+    background-position: left;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Times New Roman', serif;
+    text-align: center;
+}
+
+a:link{
+    text-decoration:none;
+    font-weight:bold;
+    color:rgb(85, 26, 139); 
+}
+
+a:visited{
+    color:gold;
+}
+a:hover{
+    font-weight: bold;
+    background-color:#609fd2;
+}
+
+.imgSize{
+    width:50%;
+    float:right;
+    margin-left:15px;
+}
+
+table{ width:1002px;
+    border-color:black; 
+    font-family: Centaur;
+    font-size:20px;
+    border-spacing:0px;
+    padding: 1em   
+}
+
+td{
+    padding:1em;
+    font-weight: bold;
+}
+
+td{
+    font-weight: bold;
+}
+
+footer{
+    padding:15px;
+    color:black;
+    font-family:Centaur;
+    background-color:rgba(255,250,240,0.85);
+    bottom:0px;
+    width:100%;
+    margin-top:31%;
+    clear:both;
+}
+
+
+@media screen and (max-width:920px){
+    body{
+        display:block;
+    }
+    div#left-col{
+        
+        width:aut;
+    }
+    main{
+     
+        width:100%;
+    }
+    aside{
+        
+        width:100%;
+    }
+    nav{
+      
+    }
+    div{width:100%; height:70%;margin:0px;float:left;margin-top:15px;background-color:rgba(255,250,240,0.85);}
+     
+}
+/*
+@media print{
+    nav ol li{font-size:.05em; font-weight: bold;}
+    div#left-col {height:20em;}
+    main{height:20em;}
+    aside{height:20em;}
+    footer{height:20em;}
+}*/
+

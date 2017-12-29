@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html" charset="UTF-8">
+    <link rel="stylesheet" href="indv-style.css" type="text/css"/>
+<title>Create an Account</title>
+    <script type="text/javascript">
+ 
+function createAccount() {
+
+var fName= document.getElementById('first').value;
+var lName= document.getElementById('last').value;
+var email= document.getElementById('email').value;
+var usr = document.getElementById('usern').value;
+var pasw = document.getElementById('pass').value;
+     window.alert("Make sure your password is unique and at least 8 characters long");
+    
+ 
+
+document.getElementById("finished").innerHTML ="Congratulations, " + fName + " you have registered an account with us! Be sure to check your email to confirm your account.";
+
+}
+       
+
+</script>
+</head>
+    <body>
+     <header>
+        <h1>Forget-Me-Not</h1> 
+        <h2>"Create Gifts to REMEMBER"</h2>
+    </header>
+            
+ <nav> 
+        <ul>
+   <li class ="homenav"><a href="about_us.html">About Us</a></li>
+  <li class ="homenav"><a href="our_products.html">Our Products</a></li>
+  <li class ="homenav"><a href="get_started.html">Get Started</a></li>
+  <li class ="homenav"><a href="resources.html">Resources</a></li>
+  <li class ="homenav"><a href="cit230-links.html"> CIT230-links (Link)</a></li>
+        </ul>
+    </nav>
+     <div class="sideNav">
+        <ul id="sideList">
+   <li><a href="create_account.html">Create an Account</a></li>
+   <li><a href ="more_info.html">More Information</a></li>
+        </ul>
+    </div>
+<main>
+    
+        <h1>Create an Account</h1>
+            <p>Set up an account with us to get started saving memories!
+            </p>
+    
+   
+First Name:<input type="text" id="first" size="8"><br><br>
+Last Name:<input type="text" id="last" size="8"><br><br>
+Email:<input type="text" id="email" size="8"><br><br>
+Username:<input type="text" id="usern" size="8"><br><br>
+Password:<input type="text" id="pass" size="8"><br><br>
+<button type="button" onclick="createAccount()">Create Account</button><br><br>
+<div id="finished"></div>
+
+
+
+
+
+
+
+        </main>
+</body>
+</html>

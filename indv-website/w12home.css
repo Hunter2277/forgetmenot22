@@ -1,0 +1,24 @@
+@media screen and (max-width:600px){
+    div#left-col{
+        
+        width:33%;
+    }
+    main{
+     
+        width:34%;
+    }
+    aside{
+        
+        width:33%;
+    }
+    nav{
+      
+    }
+}
+@media print{
+    nav ol li{font-size:.05em; font-weight: bold;}
+    div#left-col {height:20em;}
+    main{height:20em;}
+    aside{height:20em;}
+    footer{height:20em;}
+}

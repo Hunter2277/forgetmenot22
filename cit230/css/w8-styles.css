@@ -1,0 +1,115 @@
+
+
+
+header{
+    font-family:Bookman Old Style;
+    color:white;
+    background-color: cadetblue;
+    border:thick darkcyan;
+    
+}
+
+nav{
+    border:thick darkcyan;
+    
+}
+
+body{
+    background-color:rgba(250,90,22,0.4);
+    border:thick darkcyan;
+    
+}
+
+div{
+    background-color:darkcyan;
+    padding:15px;
+    margin-left:120px;
+    margin-right:300px;
+    border:thick orange;
+}
+
+h1{
+    font-family:Segoe Script;
+    font-size:50px;
+    word-spacing: 0.15em;
+     border-style: solid;
+    border-color: darkcyan;
+}
+
+p{
+    font-family:Courier New;
+    line-height: 1.4em;
+    text-align:center;
+    padding:50px;
+    border-style: solid;
+    border-color: darkcyan;     
+    
+}
+
+ul{
+    font-family:Lucida Bright;
+    font-style:italic;
+    text-align: center;
+    border-width:2px;
+    line-height: 2em;
+    border-style: solid;
+    border-color: darkcyan;
+    
+}
+
+ol{
+    font-family:Bookman Old Style;
+    font-weight: bold;
+    text-align: inherit;
+    border-style: solid;
+    border-color: darkcyan;
+        
+}
+
+table{
+    font-family:Poor Richard;
+    border-style: dotted;
+    border-color: firebrick;
+    padding: 25px;
+}
+
+th{
+    font-family:Forte;
+    text-decoration: underline;
+    border:thick chocolate;
+
+}
+
+td{
+   font-family: Poor Richard;
+     border-style:double;
+    border-color:coral;
+}
+
+a:link{
+    color:cadetblue;
+}
+a:visited{
+    color:blueviolet;
+}
+a:hover{
+   color:aqua;
+    text-decoration: underline;
+}
+a:active{
+    color:black;
+    
+}
+footer{
+    font-family: Times New Roman;
+    margin: 30px;
+     border-style: solid;
+    border-color: darkcyan;
+    
+}
+img{
+    
+}
+
+
+

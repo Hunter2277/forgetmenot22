@@ -1,0 +1,371 @@
+
+
+csslint: There are 74 problems in C:\Users\Erika Hunter\Documents\forgetmenot22\indv-website\indv-style.css.
+
+indv-style.css
+1: warning at line 2, col 1
+@import prevents parallel downloads, use <link> instead.
+@import url('https://fonts.googleapis.com/css?family=Princess+Sofia');             
+
+indv-style.css
+2: warning at line 10, col 5
+Don't use IDs in selectors.
+    div#left-col{
+
+indv-style.css
+3: warning at line 10, col 5
+Element (div#left-col) is overqualified, just use #left-col without element name.
+    div#left-col{
+
+indv-style.css
+4: warning at line 22, col 5
+Rule is empty.
+    nav{
+
+indv-style.css
+5: warning at line 25, col 38
+Values of 0 shouldn't have units specified.
+    div{width:90%; height:70%;margin:0px;float:left;margin-top:15px;background-color:rgba(255,250,240,0.85);}
+
+indv-style.css
+6: warning at line 25, col 69
+Fallback background-color (hex or RGB) should precede RGBA background-color.
+    div{width:90%; height:70%;margin:0px;float:left;margin-top:15px;background-color:rgba(255,250,240,0.85);}
+
+indv-style.css
+7: warning at line 25, col 5
+Rule doesn't have all its properties in alphabetical order.
+    div{width:90%; height:70%;margin:0px;float:left;margin-top:15px;background-color:rgba(255,250,240,0.85);}
+
+indv-style.css
+8: warning at line 27, col 9
+Rule doesn't have all its properties in alphabetical order.
+        #div1{width:100%;height:52%;}
+
+indv-style.css
+9: warning at line 27, col 9
+Don't use IDs in selectors.
+        #div1{width:100%;height:52%;}
+
+indv-style.css
+10: warning at line 28, col 9
+Don't use IDs in selectors.
+        #div2{width:auto;}
+
+indv-style.css
+11: warning at line 29, col 9
+Rule doesn't have all its properties in alphabetical order.
+        #div3{width:auto; margin-top:15px;background-color:rgba(255,250,240,0.85);}
+
+indv-style.css
+12: warning at line 29, col 43
+Fallback background-color (hex or RGB) should precede RGBA background-color.
+        #div3{width:auto; margin-top:15px;background-color:rgba(255,250,240,0.85);}
+
+indv-style.css
+13: warning at line 29, col 9
+Don't use IDs in selectors.
+        #div3{width:auto; margin-top:15px;background-color:rgba(255,250,240,0.85);}
+
+indv-style.css
+14: warning at line 31, col 5
+Rule doesn't have all its properties in alphabetical order.
+    footer{
+
+indv-style.css
+15: warning at line 37, col 1
+Rule doesn't have all its properties in alphabetical order.
+header{ 
+
+indv-style.css
+16: warning at line 47, col 13
+Values of 0 shouldn't have units specified.
+    margin: 0px auto;
+
+indv-style.css
+17: warning at line 49, col 8
+Heading (h1) should not be qualified.
+header h1{
+
+indv-style.css
+18: warning at line 49, col 1
+Rule doesn't have all its properties in alphabetical order.
+header h1{
+
+indv-style.css
+19: warning at line 55, col 1
+Rule doesn't have all its properties in alphabetical order.
+header h2{
+
+indv-style.css
+20: warning at line 55, col 8
+Heading (h2) should not be qualified.
+header h2{
+
+indv-style.css
+21: warning at line 77, col 1
+Rule doesn't have all its properties in alphabetical order.
+.homenav{
+
+indv-style.css
+22: warning at line 82, col 5
+Using width with padding can sometimes make elements larger than you expect.
+    padding:16px;
+
+indv-style.css
+23: warning at line 84, col 5
+width can't be used with display: inline.
+    width:100%;
+
+indv-style.css
+24: warning at line 88, col 1
+Rule doesn't have all its properties in alphabetical order.
+#listMain{
+
+indv-style.css
+25: warning at line 88, col 1
+Don't use IDs in selectors.
+#listMain{
+
+indv-style.css
+26: warning at line 96, col 1
+Rule doesn't have all its properties in alphabetical order.
+#listMain li a{
+
+indv-style.css
+27: warning at line 96, col 1
+Don't use IDs in selectors.
+#listMain li a{
+
+indv-style.css
+28: warning at line 103, col 1
+Don't use IDs in selectors.
+#listMain li a:hover {
+
+indv-style.css
+29: warning at line 108, col 1
+Rule doesn't have all its properties in alphabetical order.
+.sideNav ul{ 
+
+indv-style.css
+30: warning at line 112, col 13
+Values of 0 shouldn't have units specified.
+    padding:0px;
+
+indv-style.css
+31: warning at line 114, col 5
+Fallback background-color (hex or RGB) should precede RGBA background-color.
+    background-color:rgba(255,250,240,0.85);
+
+indv-style.css
+32: warning at line 122, col 1
+Rule doesn't have all its properties in alphabetical order.
+#sideList li a{
+
+indv-style.css
+33: warning at line 122, col 1
+Don't use IDs in selectors.
+#sideList li a{
+
+indv-style.css
+34: warning at line 131, col 1
+Don't use IDs in selectors.
+#sideList li a:hover{
+
+indv-style.css
+35: warning at line 135, col 1
+Heading (h1) has already been defined.
+h1{
+
+indv-style.css
+36: warning at line 139, col 1
+Heading (h2) has already been defined.
+h2{
+
+indv-style.css
+37: warning at line 147, col 1
+Rule doesn't have all its properties in alphabetical order.
+p{
+
+indv-style.css
+38: warning at line 153, col 1
+Don't use IDs in selectors.
+#textL{text-align:left;
+
+indv-style.css
+39: warning at line 155, col 1
+Rule doesn't have all its properties in alphabetical order.
+.faqs{ 
+
+indv-style.css
+40: warning at line 162, col 1
+Rule doesn't have all its properties in alphabetical order.
+div{
+
+indv-style.css
+41: warning at line 163, col 13
+Values of 0 shouldn't have units specified.
+    margin: 0px auto;
+
+indv-style.css
+42: warning at line 168, col 1
+Rule doesn't have all its properties in alphabetical order.
+main {
+
+indv-style.css
+43: warning at line 169, col 5
+Fallback background-color (hex or RGB) should precede RGBA background-color.
+    background-color:rgba(255,250,240,0.85);
+
+indv-style.css
+44: warning at line 176, col 1
+Don't use IDs in selectors.
+#createMain{
+
+indv-style.css
+45: warning at line 181, col 2
+Rule doesn't have all its properties in alphabetical order.
+ aside{
+
+indv-style.css
+46: warning at line 182, col 6
+Fallback background-color (hex or RGB) should precede RGBA background-color.
+     background-color:rgba(255,250,240,0.85);
+
+indv-style.css
+47: warning at line 189, col 1
+Rule doesn't have all its properties in alphabetical order.
+ul{
+
+indv-style.css
+48: warning at line 196, col 5
+Duplicate property 'text-align' found.
+    text-align:center;
+
+indv-style.css
+49: warning at line 197, col 5
+Duplicate property 'text-decoration' found.
+    text-decoration: none;
+
+indv-style.css
+50: warning at line 199, col 1
+Rule doesn't have all its properties in alphabetical order.
+ol{
+
+indv-style.css
+51: warning at line 206, col 18
+Values of 0 shouldn't have units specified.
+    margin: 10px 0px 0px 10px;
+
+indv-style.css
+52: warning at line 206, col 22
+Values of 0 shouldn't have units specified.
+    margin: 10px 0px 0px 10px;
+
+indv-style.css
+53: warning at line 210, col 1
+Rule doesn't have all its properties in alphabetical order.
+body{
+
+indv-style.css
+54: warning at line 212, col 5
+Expected (<repeat-style>#) but found 'none'.
+    background-repeat:none;
+
+indv-style.css
+55: warning at line 220, col 1
+Rule doesn't have all its properties in alphabetical order.
+a:link{
+
+indv-style.css
+56: warning at line 229, col 1
+Rule doesn't have all its properties in alphabetical order.
+a:hover{
+
+indv-style.css
+57: warning at line 234, col 1
+Rule doesn't have all its properties in alphabetical order.
+.imgSize{
+
+indv-style.css
+58: warning at line 240, col 1
+Rule doesn't have all its properties in alphabetical order.
+table{ width:1002px;
+
+indv-style.css
+59: warning at line 244, col 20
+Values of 0 shouldn't have units specified.
+    border-spacing:0px;
+
+indv-style.css
+60: warning at line 245, col 5
+Using width with padding can sometimes make elements larger than you expect.
+    padding: 1em   
+
+indv-style.css
+61: warning at line 248, col 1
+Rule doesn't have all its properties in alphabetical order.
+td{
+
+indv-style.css
+62: warning at line 257, col 1
+Rule doesn't have all its properties in alphabetical order.
+footer{
+
+indv-style.css
+63: warning at line 258, col 5
+Using width with padding can sometimes make elements larger than you expect.
+    padding:15px;
+
+indv-style.css
+64: warning at line 261, col 5
+Fallback background-color (hex or RGB) should precede RGBA background-color.
+    background-color:rgba(255,250,240,0.85);
+
+indv-style.css
+65: warning at line 262, col 12
+Values of 0 shouldn't have units specified.
+    bottom:0px;
+
+indv-style.css
+66: warning at line 273, col 5
+Don't use IDs in selectors.
+    div#left-col{
+
+indv-style.css
+67: warning at line 273, col 5
+Element (div#left-col) is overqualified, just use #left-col without element name.
+    div#left-col{
+
+indv-style.css
+68: warning at line 275, col 9
+Expected (<length> | <percentage> | <content-sizing> | auto) but found 'aut'.
+        width:aut;
+
+indv-style.css
+69: warning at line 285, col 5
+Rule is empty.
+    nav{
+
+indv-style.css
+70: warning at line 288, col 39
+Values of 0 shouldn't have units specified.
+    div{width:100%; height:70%;margin:0px;float:left;margin-top:15px;background-color:rgba(255,250,240,0.85);}
+
+indv-style.css
+71: warning at line 288, col 70
+Fallback background-color (hex or RGB) should precede RGBA background-color.
+    div{width:100%; height:70%;margin:0px;float:left;margin-top:15px;background-color:rgba(255,250,240,0.85);}
+
+indv-style.css
+72: warning at line 288, col 5
+Rule doesn't have all its properties in alphabetical order.
+    div{width:100%; height:70%;margin:0px;float:left;margin-top:15px;background-color:rgba(255,250,240,0.85);}
+
+indv-style.css
+73: warning
+Too many font-size declarations (13), abstraction needed.
+
+indv-style.css
+74: warning
+You have 2 h1s, 2 h2s defined in this stylesheet.
